@@ -1,4 +1,4 @@
-function spupsertvertex (doc) {
+function spaddvertex (doc) {
     var context = getContext();
     var collection = context.getCollection();
     var collectionLink = collection.getSelfLink();
